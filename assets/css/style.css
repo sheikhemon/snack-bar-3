@@ -4,9 +4,20 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: MADE Canvas;
+    src: url(../fonts/MADE\ Canvas\ Black\ PERSONAL\ USE.otf);
+    src: url(../fonts/MADE\ Canvas\ Light\ PERSONAL\ USE.otf);
+    src: url(../fonts/MADE\ Canvas\ Regular\ PERSONAL\ USE.otf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
 .main-wrapper {
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
 }
 
 .snack-main {
@@ -96,7 +107,8 @@
     outline: none;
     color: #3D0141;
     font-size: .85em;
-    font-weight: 600;
+    font-weight: 500;
+    font-family: poppins;
     background-color: #F5C74A;
     padding: .5em 1.7em;
     border-radius: 1.31em;
